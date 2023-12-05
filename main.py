@@ -22,7 +22,7 @@ for img_name in img_files:
         feature = fe.extract(img=Image.open(image_path))
         features.append(feature)
         # Save the Numpy array (.npy) on designated path
-        feature_path = "C:\\\Users\\\user\\\Documents\\\GitHub\\\pokemonvgg16\\features\\" + os.path.splitext(img_name)[0] + ".npy"
+        feature_path = "C:/Users/user/Documents/GitHub/pokemonvgg16/features/" + os.path.splitext(img_name)[0] + ".npy"
         np.save(feature_path, feature)
     except Exception as e:
         print('예외가 발생했습니다.', e)
