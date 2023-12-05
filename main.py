@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 fe = FeatureExtractor()
 features = []
 img_paths = []
-
 directory = "C:\Users\user\Downloads\pokemon\images\images"
 img_files = [f for f in os.listdir(directory) if f.endswith('.png')]
 
