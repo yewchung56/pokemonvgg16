@@ -6,3 +6,6 @@
 
 
 ![Figure_1](https://github.com/yewchung56/pokemonvgg16/assets/62236700/8ae33411-d5ca-4b7f-91e8-7279fecbb81f)
+
+
+### dataset from: https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types
