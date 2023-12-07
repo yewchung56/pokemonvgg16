@@ -4,6 +4,7 @@ from featEx import FeatureExtractor
 from PIL import Image
 import matplotlib.pyplot as plt
 
+#hi
 fe = FeatureExtractor()
 features = []
 img_paths = []
