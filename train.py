@@ -1,6 +1,7 @@
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import log_loss, roc_auc_score
 
+
 def train_and_evaluate(model, df, feature_names, target):
     # 데이터 분할
     train, test = train_test_split(df, test_size=0.2, random_state=2020)
@@ -19,3 +20,5 @@ def train_and_evaluate(model, df, feature_names, target):
     print("test AUC", round(roc_auc_score(test[target].values, pred_ans), 4))
 
     return history, pred_ans
+
+
