@@ -8,7 +8,7 @@ fe = FeatureExtractor()
 features = []
 img_paths = []
  # 이미지가 있는 폴더 경로
-directory = "C:\\Users\\user\\Documents\\GitHub\\pokemonvgg16\\images\\images"
+directory ="C:\\Users\\user\\Downloads\\pokemon\\images\\images\\"
 # # 폴더 내 모든 파일 이름을 가져옵니다.
 img_files = [f for f in os.listdir(directory) if f.endswith('.png')]
 for img_name in img_files:
@@ -28,7 +28,7 @@ for img_name in img_files:
 
 # Target 이미지
 #포켓몬이미지를 변수로 만들어서
-img = Image.open("C:\\Users\\user\\Documents\\GitHub\\pokemonvgg16\\images\\images\\abra.png")
+img = Image.open("C:\\Users\\user\\Downloads\\pokemon\\images\\images\\ampharos.png")
 query = fe.extract(img)
 # 유사도 계산
 dists = np.linalg.norm(features - query, axis=1)
