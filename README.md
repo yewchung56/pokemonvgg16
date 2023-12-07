@@ -1,3 +1,3 @@
 # pokemonvgg16
-#main branch : pokemon
+#main branch : pokemon\n
 #movie branch : movie 
